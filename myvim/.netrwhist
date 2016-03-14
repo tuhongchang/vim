@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/usr/share/vim'
+let g:netrw_dirhist_2='/home/linux/runhe/packages/apps/Settings/src/com/android/settings'
+let g:netrw_dirhist_3='/home/linux/runhe/packages/apps/Settings/src/com/android'
+let g:netrw_dirhist_4='/home/linux/runhe/out/target/product/apq8084/system/lib'
