@@ -9,7 +9,6 @@
  nmap    w-  :resize -3<CR>
  nmap    w,  :vertical resize -3<CR>
  nmap    w.  :vertical resize +3<CR>
-
 " GENERAL SETTINGS: {{{1
 " To use VIM settings, out of VI compatible mode.
 set nocompatible
@@ -18,10 +17,13 @@ set nocompatible
 " Syntax highlighting.
 syntax on
 " Setting colorscheme
-"color mycolor
+"colorscheme darkblue
+syntax enable
+set t_Co=256
+colorscheme molokai
 " Other settings.
 set   autoindent
-set   mouse=a  
+set   mouse=n 
 set   autoread
 set   autowrite
 set   background=dark
